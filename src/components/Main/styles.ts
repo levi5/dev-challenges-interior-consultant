@@ -1,9 +1,15 @@
 import styled from 'styled-components';
-
-const Wrapper = styled.div`
-	display: flex;
+type Props = {
+	show: boolean;
+};
+const Wrapper = styled.div<Props>`
+	width: 100%;
+	height: 100%;
+	display: grid;
 	justify-content: center;
-	align-items: center;
+	grid-template-rows: 6rem auto 6rem;
+	grid-template-areas: 'HD' 'MN' 'FT';
+	overflow: ${(Props) => (Props.show ? 'hidden' : 'auto')};
 `;
 
 export { Wrapper };

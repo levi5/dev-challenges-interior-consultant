@@ -1,30 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- Please update value in the {}  -->
 
-## Getting Started
+<h1 align="center">Modern interior</h1>
 
-First, run the development server:
+<div align="center">
+   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<div align="center">
+  <h3>
+    <a href="https://github.com/levi5/dev-challenges-interior-consultant">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<!-- TABLE OF CONTENTS -->
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Table of Contents
 
-## Learn More
+- [Table of Contents](#table-of-contents)
+- [Overview](#overview)
+  - [Built With](#built-with)
+  - [Run](#run)
+- [Features](#features)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
-To learn more about Next.js, take a look at the following resources:
+<!-- OVERVIEW -->
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Overview
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<div style="display:flex; flex-direction:row; gap:5px; width:100%; min-width:500px; flex-wrap: wrap; height:auto;">
 
-## Deploy on Vercel
+  <img src="./.github/assets/web01.png"/>
+  <img src="./.github/assets/mobile01.png"/>
+  <img src="./.github/assets/mobile02.png"/>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+</div>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Built With
+
+- [React](https://reactjs.org/)
+- [Next js](https://nextjs.org/)
+
+### Run
+
+ > *npm run build*
+ > *npm run start*
+
+## Features
+
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories.
+
+## Acknowledgements
+
+- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
+- [Node.js](https://nodejs.org/)
+
+## Contact
+
+- GitHub [levi5](https://github.com/levi5)
