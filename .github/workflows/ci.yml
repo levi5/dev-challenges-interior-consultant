@@ -24,3 +24,6 @@ jobs:
 
       - name: Build
         run: yarn build
+        
+      - name: Start
+        run: yarn start
