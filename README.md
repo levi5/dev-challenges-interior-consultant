@@ -48,7 +48,8 @@
 - [Next js](https://nextjs.org/)
 
 ### Run
-
+ > *npm install*
+ 
  > *npm run build*
  
  > *npm run start*
