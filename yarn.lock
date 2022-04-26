@@ -2931,10 +2931,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^18.0.6":
-  version "18.0.6"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.6.tgz#30206c3830af6ce8639b91ace5868bc2d3d1d96c"
-  integrity sha512-bPqwzJRzKtfI0mVYr5R+1o9BOE8UEXefwc1LwcBtfnaAn6OoqMhLa/91VA8aeWfDPJt1kHvYKI8RHcQybZLHHA==
+"@types/react@*", "@types/react@^18.0.7":
+  version "18.0.7"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.7.tgz#8437a226763adf854969954dfe582529a406cbad"
+  integrity sha512-CXSXHzTexlX9esf4ReIUJeaemKcmBEvYzxHDUk19c3BCcEGUvUjkeC3jkscPSfSaQ6SPDRNd/zMxi8oc/P1zxA==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -3076,14 +3076,14 @@
     semver "^7.3.5"
     tsutils "^3.21.0"
 
-"@typescript-eslint/parser@^5.2.0":
-  version "5.20.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-5.20.0.tgz#4991c4ee0344315c2afc2a62f156565f689c8d0b"
-  integrity sha512-UWKibrCZQCYvobmu3/N8TWbEeo/EPQbS41Ux1F9XqPzGuV7pfg6n50ZrFo6hryynD8qOTTfLHtHjjdQtxJ0h/w==
+"@typescript-eslint/parser@^5.21.0":
+  version "5.21.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-5.21.0.tgz#6cb72673dbf3e1905b9c432175a3c86cdaf2071f"
+  integrity sha512-8RUwTO77hstXUr3pZoWZbRQUxXcSXafZ8/5gpnQCfXvgmP9gpNlRGlWzvfbEQ14TLjmtU8eGnONkff8U2ui2Eg==
   dependencies:
-    "@typescript-eslint/scope-manager" "5.20.0"
-    "@typescript-eslint/types" "5.20.0"
-    "@typescript-eslint/typescript-estree" "5.20.0"
+    "@typescript-eslint/scope-manager" "5.21.0"
+    "@typescript-eslint/types" "5.21.0"
+    "@typescript-eslint/typescript-estree" "5.21.0"
     debug "^4.3.2"
 
 "@typescript-eslint/scope-manager@5.20.0":
@@ -3106,6 +3106,7 @@
   version "5.21.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/type-utils/-/type-utils-5.21.0.tgz#ff89668786ad596d904c21b215e5285da1b6262e"
   integrity sha512-MxmLZj0tkGlkcZCSE17ORaHl8Th3JQwBzyXL/uvC6sNmu128LsgjTX0NIzy+wdH2J7Pd02GN8FaoudJntFvSOw==
+
   dependencies:
     "@typescript-eslint/utils" "5.21.0"
     debug "^4.3.2"
@@ -3146,11 +3147,12 @@
     is-glob "^4.0.3"
     semver "^7.3.5"
     tsutils "^3.21.0"
-
 "@typescript-eslint/utils@5.21.0":
   version "5.21.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-5.21.0.tgz#51d7886a6f0575e23706e5548c7e87bce42d7c18"
   integrity sha512-q/emogbND9wry7zxy7VYri+7ydawo2HDZhRZ5k6yggIvXa7PvBbAAZ4PFH/oZLem72ezC4Pr63rJvDK/sTlL8Q==
+
+
   dependencies:
     "@types/json-schema" "^7.0.9"
     "@typescript-eslint/scope-manager" "5.21.0"
@@ -9451,10 +9453,10 @@ node-libs-browser@^2.2.1:
     util "^0.11.0"
     vm-browserify "^1.0.1"
 
-node-plop@^0.30.0:
-  version "0.30.0"
-  resolved "https://registry.yarnpkg.com/node-plop/-/node-plop-0.30.0.tgz#413581d95ff21f043ec4c373fcacb0f1555ae600"
-  integrity sha512-5w9+jWoy9OtMm3qRmHgL2z/3L5VL3RhEegKkKC4tA1IIjG3aXf8Ee/8wdgU9qXyt1yDfPWI9Tan1rHpXAp0ZnA==
+node-plop@^0.30.1:
+  version "0.30.1"
+  resolved "https://registry.yarnpkg.com/node-plop/-/node-plop-0.30.1.tgz#1daf625da72e076a60901d44a9d064833d3b0a14"
+  integrity sha512-+IOrQ1KQuOOeiLaoMzjr6ZmgWyx7gTHuLw/WD6Pqfrb6T9nOpOl76iZwF3M0Dw29Qgk6k17VF7aUULwuQS53Ig==
   dependencies:
     "@types/inquirer" "^8.1.3"
     change-case "^4.1.2"
@@ -10143,17 +10145,17 @@ pkg-dir@^5.0.0:
   dependencies:
     find-up "^5.0.0"
 
-plop@^3.0.1:
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/plop/-/plop-3.0.5.tgz#09720a3c28547ae3be0876b77313a981d56b6dcb"
-  integrity sha512-bD+/Lr+7NCjNIaYJq1cyHDfxtVCdjwfprgKsNwHwFnwntTiNwZWyxd1NuRDygdQWyPi+rstFMMFAPMek0cYaqA==
+plop@^3.0.6:
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/plop/-/plop-3.0.6.tgz#ff50b30bfb5d172a5abda22631d59a7fdb55b5cb"
+  integrity sha512-8lVAmjQgLDF0clVC20YsRI4mYf5yr8QjvTXUtyVXANZETEAc2+b1vEEE3oSq5sLBblU0p4y/6AA6tAuuqj4n7g==
   dependencies:
     "@types/liftoff" "^4.0.0"
     chalk "^5.0.0"
     interpret "^2.2.0"
     liftoff "^4.0.0"
     minimist "^1.2.5"
-    node-plop "^0.30.0"
+    node-plop "^0.30.1"
     ora "^6.0.1"
     v8flags "^4.0.0"
 
