@@ -5,10 +5,11 @@ import Document, {
 	Main,
 	NextScript
 } from 'next/document';
+import React from 'react';
 import { ServerStyleSheet } from 'styled-components';
 
-export default class MyDocument extends Document {
-	protected async getInitialProps(ctx: DocumentContext) {
+export default class MyDocument extends React.Component {
+	static async getInitialProps(ctx: DocumentContext) {
 		const sheet = new ServerStyleSheet();
 		const originalRenderPage = ctx.renderPage;
 
