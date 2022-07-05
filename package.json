@@ -46,7 +46,7 @@
     "@types/node": "^18.0.0",
     "@types/react": "^18.0.9",
     "@types/styled-components": "^5.1.5",
-    "@typescript-eslint/parser": "^5.29.0",
+    "@typescript-eslint/parser": "^5.30.5",
     "@typescript-eslint/eslint-plugin": "^5.25.0",
     "@typescript-eslint/eslint-plugin": "^5.27.1",
     "babel-loader": "^8.2.2",
