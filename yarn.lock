@@ -2308,19 +2308,19 @@
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
-"@storybook/cli@6.5.9":
-  version "6.5.9"
-  resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-6.5.9.tgz#f0ddba7efde8b75ed9c4dca37157a0ff8ab04c80"
-  integrity sha512-0X5Va3mfJWdFBgtNQTQhw1Dhfpnkw4UYs5koR/c1CCWKB13nGD3nI/f2INNqbRaNcDmPFAyv6BynLQeY4G3JEA==
+"@storybook/cli@6.5.10":
+  version "6.5.10"
+  resolved "https://registry.yarnpkg.com/@storybook/cli/-/cli-6.5.10.tgz#33ed513e2a7968b4fc2317e67f76ee5d1152c139"
+  integrity sha512-avxlWVaxMasP4svsYaJ6ELfrcP3SKaIJeFbiu688kQCCX+7pOUOaWPXfiScNpuoQ8wdghcwyZzRkhcV873rHHA==
   dependencies:
     "@babel/core" "^7.12.10"
     "@babel/preset-env" "^7.12.11"
-    "@storybook/codemod" "6.5.9"
-    "@storybook/core-common" "6.5.9"
-    "@storybook/csf-tools" "6.5.9"
-    "@storybook/node-logger" "6.5.9"
+    "@storybook/codemod" "6.5.10"
+    "@storybook/core-common" "6.5.10"
+    "@storybook/csf-tools" "6.5.10"
+    "@storybook/node-logger" "6.5.10"
     "@storybook/semver" "^7.3.2"
-    "@storybook/telemetry" "6.5.9"
+    "@storybook/telemetry" "6.5.10"
     boxen "^5.1.2"
     chalk "^4.1.0"
     commander "^6.2.1"
@@ -2395,6 +2395,25 @@
     "@storybook/csf" "0.0.2--canary.4566f4d.1"
     "@storybook/csf-tools" "6.5.9"
     "@storybook/node-logger" "6.5.9"
+    core-js "^3.8.2"
+    cross-spawn "^7.0.3"
+    globby "^11.0.2"
+    jscodeshift "^0.13.1"
+    lodash "^4.17.21"
+    prettier ">=2.2.1 <=2.3.0"
+    recast "^0.19.0"
+    regenerator-runtime "^0.13.7"
+
+"@storybook/codemod@6.5.10":
+  version "6.5.10"
+  resolved "https://registry.yarnpkg.com/@storybook/codemod/-/codemod-6.5.10.tgz#a1ad723a8602ca942cecdad6c44783d9a82a6cdc"
+  integrity sha512-fE/5qMHlv54VU2dQyZljFGCEcoFWS2kL3i5bvuf1Ha0HnyZ0gNOXzwBGqCjzxC5RE1Oz3Z6Dy1ZT98Q4LP4lZg==
+  dependencies:
+    "@babel/types" "^7.12.11"
+    "@mdx-js/mdx" "^1.6.22"
+    "@storybook/csf" "0.0.2--canary.4566f4d.1"
+    "@storybook/csf-tools" "6.5.10"
+    "@storybook/node-logger" "6.5.10"
     core-js "^3.8.2"
     cross-spawn "^7.0.3"
     globby "^11.0.2"
@@ -2753,6 +2772,26 @@
     regenerator-runtime "^0.13.7"
     ts-dedent "^2.0.0"
 
+"@storybook/csf-tools@6.5.10":
+  version "6.5.10"
+  resolved "https://registry.yarnpkg.com/@storybook/csf-tools/-/csf-tools-6.5.10.tgz#ae6f1ebd4951e8978c8fe3e08ddd2bd269bf922b"
+  integrity sha512-H77kZQEisu7+skzeIbNZwmE09OqLjwJTeFhLN1pcjxKVa30LEI3pBHcNBxVKqgxl+Yg3KkB7W/ArLO2N+i2ohw==
+  dependencies:
+    "@babel/core" "^7.12.10"
+    "@babel/generator" "^7.12.11"
+    "@babel/parser" "^7.12.11"
+    "@babel/plugin-transform-react-jsx" "^7.12.12"
+    "@babel/preset-env" "^7.12.11"
+    "@babel/traverse" "^7.12.11"
+    "@babel/types" "^7.12.11"
+    "@storybook/csf" "0.0.2--canary.4566f4d.1"
+    "@storybook/mdx1-csf" "^0.0.1"
+    core-js "^3.8.2"
+    fs-extra "^9.0.1"
+    global "^4.4.0"
+    regenerator-runtime "^0.13.7"
+    ts-dedent "^2.0.0"
+
 "@storybook/csf-tools@6.5.9":
   version "6.5.9"
   resolved "https://registry.yarnpkg.com/@storybook/csf-tools/-/csf-tools-6.5.9.tgz#8e01df2305b53e228229f0b45ada3720e6e42a1c"
@@ -3076,6 +3115,24 @@
     synchronous-promise "^2.0.15"
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
+
+"@storybook/telemetry@6.5.10":
+  version "6.5.10"
+  resolved "https://registry.yarnpkg.com/@storybook/telemetry/-/telemetry-6.5.10.tgz#742b05a55dfe8470ce4cb371f3f3f2c02f96e816"
+  integrity sha512-+M5HILDFS8nDumLxeSeAwi1MTzIuV6UWzV4yB2wcsEXOBTdplcl9oYqFKtlst78oOIdGtpPYxYfivDlqxC2K4g==
+  dependencies:
+    "@storybook/client-logger" "6.5.10"
+    "@storybook/core-common" "6.5.10"
+    chalk "^4.1.0"
+    core-js "^3.8.2"
+    detect-package-manager "^2.0.1"
+    fetch-retry "^5.0.2"
+    fs-extra "^9.0.1"
+    global "^4.4.0"
+    isomorphic-unfetch "^3.1.0"
+    nanoid "^3.3.1"
+    read-pkg-up "^7.0.1"
+    regenerator-runtime "^0.13.7"
 
 "@storybook/telemetry@6.5.9":
   version "6.5.9"
@@ -11663,12 +11720,12 @@ sane@^4.0.3:
     minimist "^1.1.1"
     walker "~1.0.5"
 
-sb@^6.5.9:
-  version "6.5.9"
-  resolved "https://registry.yarnpkg.com/sb/-/sb-6.5.9.tgz#53831108f0002f672e3495b1707b71c686fa02d0"
-  integrity sha512-MAg30+nDLlFG6Kl3PB6ctBrpcsxmERRfp1bFY+3R+m3ZXCUr619o3T+AsYVHmAQj+ouB0Y2lm9ifR8rYRBGJIw==
+sb@^6.5.10:
+  version "6.5.10"
+  resolved "https://registry.yarnpkg.com/sb/-/sb-6.5.10.tgz#3d15b51567612a4c3a71eebb035a17d49c001cb9"
+  integrity sha512-0AzTEIya8D/2HHd+IVBKmi2RO6K462elJI1R+qheOMxGpEggBRh9e1Q9yvHI7b/jehzTGfoUWj1WnnKuTAS01A==
   dependencies:
-    "@storybook/cli" "6.5.9"
+    "@storybook/cli" "6.5.10"
 
 scheduler@^0.20.2:
   version "0.20.2"
